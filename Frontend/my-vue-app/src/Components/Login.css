@@ -1,0 +1,102 @@
+    .loginCard {
+        width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-top: 200px;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container>* {
+        margin-bottom: 10px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .signUpcard {
+        width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-top: 200px;
+    }
+
+    .signUpcard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signUpcard form>* {
+        margin-bottom: 10px;
+    }
+
+    .error {
+        color: red;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+    img {
+        max-width: 100%;
+    }
+
+    .SignupContainer {
+        background: url('/public/img/bg.jpg');
+        background-size: cover;
+        font-family: "Rubik", sans-serif;
+    }
+
+
+    .formRow {
+        width: 100%;
+        max-width: 1200px;
+        border-radius: 4px;
+    }
+
+    .signupText {
+        margin-top: 2rem;
+        font-size: 28px !important;
+    }
+
+    .submitBtn:hover {
+        background-color: white !important;
+        color: #0d6efd !important;
+    }
+
+    .loginText {
+        font-size: 14px;
+    }
+
+    .form-error {
+        color: red !important;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(17, 171, 223);
+        font-size: 15px;
+    }
+    .password-toggle{
+        cursor: pointer;
+        font-size:16px;
+    }
